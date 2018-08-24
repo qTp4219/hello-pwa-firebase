@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My hello world page</title>
+    <link rel="stylesheet" type="text/css" href="css/mainstyle.css" media="all">
+    <link rel="manifest" href="manifest.json">
+  </head>
+  <body>
+    <h1 class="vertical-container">Hello World</h1>
+  </body>
+  <script src="https://www.gstatic.com/firebasejs/5.4.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyC17q_yAeO2GSxJ3du_1_FgHjr3fPypB9U",
+      authDomain: "hello-pwa-firebase.firebaseapp.com",
+      databaseURL: "https://hello-pwa-firebase.firebaseio.com",
+      projectId: "hello-pwa-firebase",
+      storageBucket: "",
+      messagingSenderId: "602879116388"
+    };
+    firebase.initializeApp(config);
+  </script>
+</html>

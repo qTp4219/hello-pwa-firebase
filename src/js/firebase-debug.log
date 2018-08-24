@@ -1,0 +1,24 @@
+[debug] [2018-08-24T08:46:33.781Z] ----------------------------------------------------------------------
+[debug] [2018-08-24T08:46:33.784Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-08-24T08:46:33.784Z] CLI Version:   4.2.0
+[debug] [2018-08-24T08:46:33.784Z] Platform:      darwin
+[debug] [2018-08-24T08:46:33.784Z] Node Version:  v8.11.3
+[debug] [2018-08-24T08:46:33.784Z] Time:          Fri Aug 24 2018 15:46:33 GMT+0700 (+07)
+[debug] [2018-08-24T08:46:33.785Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-24T08:46:33.794Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-24T08:46:33.794Z] > authorizing via signed-in user
+[debug] [2018-08-24T08:46:33.796Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/hello-pwa-firebase  
+ 
+[debug] [2018-08-24T08:46:34.846Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-24T08:46:34.847Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hello-pwa-firebase  
+ 
+[debug] [2018-08-24T08:46:36.070Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/phientruong/Project_Temp/PWAProject/hello-world-pwa'...
+[info] 
+[debug] [2018-08-24T08:46:36.072Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/602879116388/clients/_:getWebAppConfig  
+ 
+[debug] [2018-08-24T08:46:36.854Z] <<< HTTP RESPONSE 200
+[info] i  hosting[hello-pwa-firebase]: Serving hosting files from: src
+[info] ✔  hosting[hello-pwa-firebase]: Local server: http://localhost:5000
